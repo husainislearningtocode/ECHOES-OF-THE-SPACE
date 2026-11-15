@@ -1,0 +1,97 @@
+{
+  "_help": "Gallery for each machine. 'base' is the folder for local files. Each image is a URL (https://...) or a file name inside base (photo.jpg), or a full path starting with assets/. Use the object form to add a caption, a credit, or to force 'type': 'url' or 'file'. Missing or broken images are skipped. Add images under 'missions' using the mission id. 'queries' (optional): { mission id: search words } fills each machine up to 'perMachine' pictures from NASA's open image library (images-api.nasa.gov) when your own list has fewer.",
+  "base": "assets/images/",
+  "missions": {
+    "surveyor-3": [
+      {
+        "type": "url",
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/lunar-science/2023/09/as12-48-7121_orig.jpg?w=1200&h=1200&fit=clip",
+        "caption": "Surveyor 3 in its crater on the Moon, photographed by Apollo 12 astronauts in November 1969.",
+        "credit": "NASA/JSC"
+      }
+    ],
+    "apollo-11-eagle": [
+      {
+        "type": "url",
+        "src": "https://nssdc.gsfc.nasa.gov/planetary/thumbnail/ap11_lm_as11_40_5927.gif",
+        "caption": "The Apollo 11 lunar module Eagle on the Moon.",
+        "credit": "NASA"
+      }
+    ],
+    "apollo-alsep": [],
+    "lunar-rover": [],
+    "viking-1": [
+      {
+        "type": "url",
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/internal_resources/3514/Viking_Lander_Line_Drawing-1.jpeg?w=1280&h=972&fit=clip",
+        "caption": "Line drawing of the Viking lander.",
+        "credit": "NASA"
+      },
+      {
+        "type": "url",
+        "src": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/07/Viking_1_First_Image_From_Mars_1280.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+        "caption": "The first picture Viking 1 took on the surface of Mars, minutes after landing.",
+        "credit": "NASA/JPL"
+      }
+    ],
+    "sojourner": [
+      {
+        "type": "url",
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/p/i/a/0/PIA01551-1.jpg?w=1099&h=572&fit=clip&crop=faces%2Cfocalpoint",
+        "caption": "Sojourner on the Martian surface after rolling off the Pathfinder lander (Sol 2).",
+        "credit": "NASA/JPL-Caltech"
+      },
+      {
+        "type": "url",
+        "src": "https://science.nasa.gov/wp-content/uploads/2017/12/pia00621-pathfinder-and-sojourner-with-airbags-deflated.jpg?w=2048",
+        "caption": "Pathfinder and Sojourner on the surface, with the landing airbags deflated.",
+        "credit": "NASA/JPL-Caltech"
+      },
+      {
+        "type": "url",
+        "src": "https://assets.science.nasa.gov/content/dam/science/psd/mars/resources/detail_files/8/8782_mars-rover-pathfinder-sol14_S0050J-full2.gif",
+        "caption": "Sojourner deploying its Alpha Proton X-ray Spectrometer (animated).",
+        "credit": "NASA/JPL-Caltech"
+      }
+    ],
+    "spirit": [
+      {
+        "type": "url",
+        "src": "https://science.nasa.gov/wp-content/uploads/2024/03/sol016-lander-pan-pia05117.jpg?w=2048",
+        "caption": "Spirit's landing site in Gusev Crater, with the crumpled airbags around the landing platform (Sol 16).",
+        "credit": "NASA/JPL-Caltech/Cornell"
+      }
+    ],
+    "opportunity": [
+      {
+        "type": "url",
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/internal_resources/3447/solar_panels_on_rover_seen_from_above.jpeg?w=768&h=601&fit=clip",
+        "caption": "Opportunity's self-portrait, March 2014: wind had cleaned much of the dust off its solar panels.",
+        "credit": "NASA/JPL-Caltech/Cornell Univ./Arizona State Univ."
+      },
+      {
+        "type": "url",
+        "src": "https://science.nasa.gov/wp-content/uploads/2024/03/sol058-to-060-lion-king-pia05755.jpg?w=2048",
+        "caption": "The \"Lion King\" panorama of Eagle Crater and the plains of Meridiani Planum.",
+        "credit": "NASA/JPL/Cornell"
+      }
+    ],
+    "phoenix": [],
+    "insight": [],
+    "ingenuity": []
+  },
+  "perMachine": 4,
+  "queries": {
+    "surveyor-3": "Surveyor 3 spacecraft",
+    "apollo-11-eagle": "Apollo 11 lunar module Eagle",
+    "apollo-alsep": "Apollo 12 ALSEP",
+    "lunar-rover": "Apollo 15 lunar roving vehicle",
+    "viking-1": "Viking 1 lander",
+    "sojourner": "Sojourner rover Pathfinder",
+    "spirit": "Spirit rover Mars Exploration Rover",
+    "opportunity": "Opportunity rover Mars",
+    "phoenix": "Phoenix Mars lander",
+    "insight": "InSight Mars lander",
+    "ingenuity": "Ingenuity Mars helicopter"
+  }
+}

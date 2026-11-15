@@ -1,0 +1,334 @@
+{
+  "missions": [
+    {
+      "id": "surveyor-3",
+      "name": "Surveyor 3",
+      "body": "moon",
+      "year": 1967,
+      "model": "models/surveyor-3.glb",
+      "modelScale": 1,
+      "modelRotation": [
+        0,
+        0,
+        0
+      ],
+      "video": "videos/surveyor-3.mp4",
+      "status": "parked",
+      "date": "Landed April 20, 1967",
+      "where": "Oceanus Procellarum",
+      "blurb": "A robotic scout sent to prove a soft landing on the Moon was possible. Two and a half years later, Apollo 12 astronauts walked up to it.",
+      "facts": [
+        "It bounced twice before settling on the surface.",
+        "Its scoop dug a trench to test how strong the lunar soil was.",
+        "Apollo 12 astronauts brought home pieces of it, including its camera, in 1969."
+      ],
+      "url": "https://science.nasa.gov/mission/surveyor-3/",
+      "fallback": {
+        "type": "tripod",
+        "panels": false,
+        "scale": 0.95
+      },
+      "how": "Surveyor 3 had a TV camera and a scoop on a robot arm. The arm pushed and dug into the soil like a little shovel. Scientists watched the pictures to find out if the ground was firm enough to hold up a spaceship with people inside."
+    },
+    {
+      "id": "apollo-11-eagle",
+      "name": "Apollo 11 \"Eagle\" descent stage",
+      "body": "moon",
+      "year": 1969,
+      "model": "models/apollo-11-eagle.glb",
+      "modelScale": 1,
+      "modelRotation": [
+        0,
+        0,
+        0
+      ],
+      "video": "videos/apollo-11-eagle.mp4",
+      "status": "parked",
+      "date": "Landed July 20, 1969",
+      "where": "Sea of Tranquility",
+      "blurb": "Eagle's descent stage was the launch pad for the ascent stage that carried Neil Armstrong and Buzz Aldrin back to orbit. It has stood on the Moon ever since.",
+      "facts": [
+        "It carries a plaque the Apollo 11 crew left for future visitors.",
+        "Its rocket engine slowed the landing, then stayed behind for good.",
+        "Armstrong and Aldrin explored the surface for about two and a half hours."
+      ],
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+      "fallback": {
+        "type": "descent",
+        "panels": false,
+        "scale": 0.95
+      },
+      "how": "Eagle was like a rocket stacked on a platform. The bottom part had the landing engine and four legs. To go home, the top part fired its own engine and flew away, and the bottom part stayed on the Moon."
+    },
+    {
+      "id": "apollo-alsep",
+      "name": "Apollo science station (ALSEP)",
+      "body": "moon",
+      "year": 1969,
+      "model": "models/apollo-alsep.glb",
+      "modelScale": 1,
+      "modelRotation": [
+        0,
+        0,
+        0
+      ],
+      "video": "videos/apollo-alsep.mp4",
+      "status": "silent",
+      "date": "Set up November 19, 1969 (Apollo 12)",
+      "where": "Oceanus Procellarum",
+      "blurb": "Science stations the astronauts set up and left running. They listened to the Moon long after the crews flew home.",
+      "facts": [
+        "Apollo 12 deployed the first full ALSEP in November 1969.",
+        "Its seismometer radioed moonquakes back to Earth.",
+        "NASA switched the Apollo stations off in September 1977."
+      ],
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C",
+      "fallback": {
+        "type": "pack",
+        "panels": false,
+        "scale": 0.95
+      },
+      "how": "Astronauts set the instruments on the ground and linked them to a small radio station. A tiny nuclear power source made the electricity, so the station could keep working through the long, cold lunar night."
+    },
+    {
+      "id": "lunar-rover",
+      "name": "Lunar Roving Vehicle",
+      "body": "moon",
+      "year": 1971,
+      "model": "models/lunar-rover.glb",
+      "modelScale": 1,
+      "modelRotation": [
+        0,
+        0,
+        0
+      ],
+      "video": "videos/lunar-rover.mp4",
+      "status": "parked",
+      "date": "First driven July 31, 1971 (Apollo 15)",
+      "where": "Hadley-Apennine region",
+      "blurb": "Battery-powered moon buggies carried astronauts much farther than they could walk. Three of them are still parked on the Moon.",
+      "facts": [
+        "It folded up to fit inside the lunar module.",
+        "Apollo 15, 16 and 17 each left one behind.",
+        "Apollo 15's crew drove about 28 km in theirs."
+      ],
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+      "fallback": {
+        "type": "buggy",
+        "panels": false,
+        "scale": 0.95
+      },
+      "how": "Each wheel had its own electric motor, and the wheels were wire mesh so they would not sink into the dust. The astronaut steered with a T-shaped handle. The rover folded flat to ride to the Moon."
+    },
+    {
+      "id": "viking-1",
+      "name": "Viking 1 lander",
+      "body": "mars",
+      "year": 1976,
+      "model": "models/viking-1.glb",
+      "modelScale": 1,
+      "modelRotation": [
+        0,
+        0,
+        0
+      ],
+      "video": "videos/viking-1.mp4",
+      "status": "silent",
+      "date": "Landed July 20, 1976",
+      "where": "Chryse Planitia",
+      "blurb": "The first U.S. lander to work successfully on Mars. It was built for 90 days and kept going for more than six years.",
+      "facts": [
+        "It sent home some of the first color pictures of the Martian surface.",
+        "Its experiments tested Martian soil for signs of life.",
+        "Contact was lost in November 1982."
+      ],
+      "url": "https://science.nasa.gov/mission/viking-1/",
+      "fallback": {
+        "type": "lander",
+        "panels": false,
+        "scale": 0.95
+      },
+      "how": "Viking's robot arm scooped up Martian soil and dropped it into small test chambers inside the lander. The tests asked: do tiny living things in this soil change the air around them? The answer was not a clear yes."
+    },
+    {
+      "id": "sojourner",
+      "name": "Sojourner",
+      "body": "mars",
+      "year": 1997,
+      "model": "models/sojourner.glb",
+      "modelScale": 1,
+      "modelRotation": [
+        0,
+        0,
+        0
+      ],
+      "video": "videos/sojourner.mp4",
+      "status": "parked",
+      "date": "Landed July 4, 1997 (Mars Pathfinder)",
+      "where": "Ares Vallis",
+      "blurb": "The first rover to drive on Mars, about the size of a microwave oven. It rode down to the surface on the Pathfinder lander.",
+      "facts": [
+        "It was planned to work for about a week and lasted nearly three months.",
+        "An onboard instrument tested the chemistry of rocks and soil.",
+        "The last signal from Pathfinder arrived in September 1997."
+      ],
+      "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+      "fallback": {
+        "type": "rover",
+        "panels": false,
+        "scale": 0.65
+      },
+      "how": "Sojourner pressed an instrument called APXS against a rock. It measured which elements the rock was made of. The Pathfinder lander worked as its radio, sending pictures and results to Earth."
+    },
+    {
+      "id": "spirit",
+      "name": "Spirit",
+      "body": "mars",
+      "year": 2004,
+      "model": "models/spirit.glb",
+      "modelScale": 1,
+      "modelRotation": [
+        0,
+        0,
+        0
+      ],
+      "video": "videos/spirit.mp4",
+      "status": "silent",
+      "date": "Landed January 4, 2004",
+      "where": "Gusev Crater",
+      "blurb": "Built for 90 days, it explored Mars for years, until it got stuck in soft sand and could not tilt its solar panels toward the winter Sun.",
+      "facts": [
+        "It found signs that water once shaped the ground in Gusev Crater.",
+        "It became stuck in sand in 2009.",
+        "NASA's last contact with it was in March 2010."
+      ],
+      "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+      "fallback": {
+        "type": "rover",
+        "panels": true,
+        "scale": 0.95
+      },
+      "how": "Spirit had six wheels that could climb over rocks. Its robot arm had a tool that ground away a rock's dusty surface so its instruments could study fresh rock underneath."
+    },
+    {
+      "id": "opportunity",
+      "name": "Opportunity",
+      "body": "mars",
+      "year": 2004,
+      "model": "models/opportunity.glb",
+      "modelScale": 1,
+      "modelRotation": [
+        0,
+        0,
+        0
+      ],
+      "video": "videos/opportunity.mp4",
+      "status": "silent",
+      "date": "Landed January 25, 2004",
+      "where": "Meridiani Planum",
+      "blurb": "Built for 90 days, it worked for almost 15 years. A planet-wide dust storm blocked the sunlight it needed, and it never woke up.",
+      "facts": [
+        "It found strong evidence that liquid water once soaked the rocks of Meridiani.",
+        "It drove about 45 km, farther than a marathon.",
+        "NASA last heard from it on June 10, 2018, and declared the mission complete in February 2019."
+      ],
+      "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+      "fallback": {
+        "type": "rover",
+        "panels": true,
+        "scale": 0.95
+      },
+      "how": "Opportunity ran on sunlight. Its solar panels made the electricity for driving and science. Sometimes wind blew the dust off the panels, which helped it keep working for years."
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix lander",
+      "body": "mars",
+      "year": 2008,
+      "model": "models/phoenix.glb",
+      "modelScale": 1,
+      "modelRotation": [
+        0,
+        0,
+        0
+      ],
+      "video": "videos/phoenix.mp4",
+      "status": "silent",
+      "date": "Landed May 25, 2008",
+      "where": "Arctic plains of Mars",
+      "blurb": "It dug into the frozen ground near the Martian north pole and confirmed water ice. Then polar winter took away its sunlight.",
+      "facts": [
+        "A robotic arm scooped up soil and ice for testing.",
+        "It confirmed that water ice lies just below the surface.",
+        "It lost power as winter darkness set in, with last contact in November 2008."
+      ],
+      "url": "https://science.nasa.gov/mission/phoenix/",
+      "fallback": {
+        "type": "lander",
+        "panels": true,
+        "scale": 0.95
+      },
+      "how": "Phoenix's robot arm dug a trench in the icy ground. It put soil into tiny ovens and heated it to see what came out. That is how the team learned about the water ice."
+    },
+    {
+      "id": "insight",
+      "name": "InSight lander",
+      "body": "mars",
+      "year": 2018,
+      "model": "models/insight.glb",
+      "modelScale": 1,
+      "modelRotation": [
+        0,
+        0,
+        0
+      ],
+      "video": "videos/insight.mp4",
+      "status": "silent",
+      "date": "Landed November 26, 2018",
+      "where": "Elysium Planitia",
+      "blurb": "A geologist that never moved. It listened to the inside of Mars until dust built up on its solar panels and the power ran out.",
+      "facts": [
+        "Its seismometer detected more than 1,300 marsquakes.",
+        "The data helped reveal the size and layers of Mars's crust, mantle and core.",
+        "NASA ended the mission in December 2022."
+      ],
+      "url": "https://science.nasa.gov/mission/insight/",
+      "fallback": {
+        "type": "lander",
+        "panels": true,
+        "scale": 0.95
+      },
+      "how": "InSight's arm set a seismometer on the ground and covered it with a dome to keep the wind out. A seismometer feels shaking, so it could feel marsquakes and show what Mars is like deep inside."
+    },
+    {
+      "id": "ingenuity",
+      "name": "Ingenuity helicopter",
+      "body": "mars",
+      "year": 2021,
+      "model": "models/ingenuity.glb",
+      "modelScale": 1,
+      "modelRotation": [
+        0,
+        0,
+        0
+      ],
+      "video": "videos/ingenuity.mp4",
+      "status": "grounded",
+      "date": "First flight April 19, 2021",
+      "where": "Jezero Crater",
+      "blurb": "The first aircraft to fly on another planet. It was planned for 5 flights and made 72 before its rotor blades were damaged.",
+      "facts": [
+        "It proved powered flight is possible in Mars's thin air.",
+        "It scouted terrain ahead of the Perseverance rover.",
+        "Flight 72, in January 2024, damaged its rotor blades and ended its flying career."
+      ],
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+      "fallback": {
+        "type": "heli",
+        "panels": false,
+        "scale": 0.95
+      },
+      "how": "Ingenuity had two rotors that spun in opposite directions, very fast, because Mars air is so thin. It was built to be light, and a small solar panel on top charged its battery."
+    }
+  ]
+}
